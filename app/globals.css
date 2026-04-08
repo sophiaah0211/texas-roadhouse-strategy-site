@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+:root {
+  --font-sans:
+    "Avenir Next", Avenir, Montserrat, "Segoe UI", -apple-system, BlinkMacSystemFont,
+    sans-serif;
+  --font-display:
+    "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman",
+    serif;
+  --background: #0d0b0a;
+  --foreground: #f8f1ea;
+  --muted-foreground: #bcaea2;
+  --surface: rgba(255, 255, 255, 0.05);
+  --surface-strong: rgba(255, 255, 255, 0.1);
+  --accent: #c96a38;
+  --accent-strong: #94411f;
+  --accent-soft: #efb690;
+  --accent-foreground: #fff7f2;
+  --ring: rgba(240, 199, 167, 0.7);
+  --ink: #181310;
+  --ink-muted: #655851;
+}
+
+@theme inline {
+  --font-sans: var(--font-sans);
+  --font-display: var(--font-display);
+}
+
+* {
+  border-color: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top, rgba(201, 106, 56, 0.12), transparent 28%),
+    linear-gradient(180deg, #0d0b0a 0%, #11100e 42%, #0d0b0a 100%);
+  color: var(--foreground);
+  font-family: var(--font-sans), sans-serif;
+}
+
+.font-display {
+  font-family: var(--font-display), serif;
+  letter-spacing: -0.03em;
+}
+
+::selection {
+  background: rgba(201, 106, 56, 0.3);
+  color: var(--foreground);
+}
