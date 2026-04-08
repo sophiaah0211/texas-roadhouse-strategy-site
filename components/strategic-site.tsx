@@ -142,7 +142,7 @@ export function StrategicSite() {
             </Reveal>
           </section>
 
-          <section id="why-it-matters" className="scroll-mt-28">
+          <section id="why-it-matters" className="scroll-mt-36 lg:scroll-mt-40">
             <Reveal>
               <SectionHeading
                 eyebrow="Why this company matters"
@@ -170,7 +170,7 @@ export function StrategicSite() {
 
           <Divider />
 
-          <section id="business-model" className="scroll-mt-28">
+          <section id="business-model" className="scroll-mt-36 lg:scroll-mt-40">
             <Reveal>
               <SectionHeading
                 eyebrow="How the business works"
@@ -227,7 +227,7 @@ export function StrategicSite() {
 
           <Divider />
 
-          <section id="strategic-tension" className="scroll-mt-28">
+          <section id="strategic-tension" className="scroll-mt-36 lg:scroll-mt-40">
             <Reveal>
               <SectionHeading
                 eyebrow="The strategic tension"
@@ -278,7 +278,7 @@ export function StrategicSite() {
 
           <Divider />
 
-          <section id="landscape" className="scroll-mt-28">
+          <section id="landscape" className="scroll-mt-36 lg:scroll-mt-40">
             <Reveal>
               <SectionHeading
                 eyebrow="Competitive landscape"
@@ -402,7 +402,7 @@ export function StrategicSite() {
 
           <Divider />
 
-          <section id="financial-story" className="scroll-mt-28">
+          <section id="financial-story" className="scroll-mt-36 lg:scroll-mt-40">
             <Reveal>
               <SectionHeading
                 eyebrow="Financial story"
@@ -459,7 +459,7 @@ export function StrategicSite() {
 
           <Divider />
 
-          <section id="capabilities" className="scroll-mt-28">
+          <section id="capabilities" className="scroll-mt-36 lg:scroll-mt-40">
             <Reveal>
               <SectionHeading
                 eyebrow="Internal capabilities"
@@ -512,7 +512,7 @@ export function StrategicSite() {
 
           <Divider />
 
-          <section id="evidence-lab" className="scroll-mt-28">
+          <section id="evidence-lab" className="scroll-mt-36 lg:scroll-mt-40">
             <Reveal>
               <SectionHeading
                 eyebrow="Validation and primary research"
@@ -529,7 +529,7 @@ export function StrategicSite() {
 
           <Divider />
 
-          <section id="synthesis" className="scroll-mt-28">
+          <section id="synthesis" className="scroll-mt-36 lg:scroll-mt-40">
             <Reveal>
               <SectionHeading
                 eyebrow="Insight synthesis"
@@ -571,7 +571,7 @@ export function StrategicSite() {
 
           <Divider />
 
-          <section id="recommendation" className="scroll-mt-28">
+          <section id="recommendation" className="scroll-mt-40 lg:scroll-mt-44">
             <Reveal>
               <SectionHeading
                 eyebrow="The recommendation"
@@ -685,7 +685,7 @@ export function StrategicSite() {
 
           <Divider />
 
-          <section id="roadmap" className="scroll-mt-28">
+          <section id="roadmap" className="scroll-mt-36 lg:scroll-mt-40">
             <Reveal>
               <SectionHeading
                 eyebrow="Implementation roadmap"
@@ -740,7 +740,7 @@ export function StrategicSite() {
 
           <Divider />
 
-          <section id="appendix" className="scroll-mt-28">
+          <section id="appendix" className="scroll-mt-36 lg:scroll-mt-40">
             <Reveal>
               <div className="overflow-hidden rounded-[2.5rem] border border-[rgba(60,49,41,0.1)] bg-[linear-gradient(180deg,rgba(255,248,240,0.96),rgba(244,235,224,0.88))] p-8 text-[var(--ink)] shadow-[0_24px_70px_rgba(0,0,0,0.14)] sm:p-10">
                 <SectionHeading
