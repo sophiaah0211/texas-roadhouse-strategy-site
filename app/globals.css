@@ -1,9 +1,8 @@
 @import "tailwindcss";
 
 :root {
+  --nav-offset: 8.5rem;
   --font-sans:
-    "Avenir Next", Avenir, Montserrat, "Segoe UI", -apple-system, BlinkMacSystemFont,
-    sans-serif;
   --font-display:
     "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman",
     serif;
@@ -32,6 +31,10 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: var(--nav-offset);
+}
+
+}
 }
 
 body {
